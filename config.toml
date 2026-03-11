@@ -38,7 +38,7 @@ taxonomies = [
 footer_text = "OS2X" # by default this page adds a small and non-intrusive footer with some text linking to this repository - you can set this to false to remove the footer if you prefer
 title = {tagline = "Presenting the", title = "Operation System & Hyperscale Academic Workshop", subtitles = ["For workshops, seminars, and academic events"]} # this contains the header's tagline, title, and list of subtitles, which are displayed in order
 banner = {extension = "svg", size = "fixed", fade = true} # this enables a banner image stored in static/banner.svg, with the CSS class bg-fixed: this CSS class is designed for users to set the background image's height and width by overriding CSS - see _main.scss for other classes like bg-contain or bg-cover - the fade option enables a CSS-based fade around the text
-buttons = [{name = "OS2X", url = "https://os2x.com"}, {name="GitHub", url="http://github.com/OS2X"}] # creates a list of buttons displayed in order, with links to the URLs
+buttons = [{name = "OS2X", url = "https://os2x.com"}, {name="GitHub", url="https://github.com/OS2X"}] # creates a list of buttons displayed in order, with links to the URLs
 image = {resize = 400, ext = '.jpg'} # this sets the desired size for image resizing, as well as the default extension
 list_page_limit = 10 # this sets the default number of items which show up in one page in a list
 header_pages = [{name = "Home", url = "/#home"},{name = "Design", url = "/#design"}] # this sets the pages which show up in the navigation menu which gets displayed on mobile devices
